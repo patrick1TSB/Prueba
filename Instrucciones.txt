@@ -1,0 +1,8 @@
+Instrucciones
+
+* Abrir la carpeta NodeJS con Visual Studio Code colocar en la linea comandos----> server.js, espear a que se cree la base de datos previamente se debe tener instalado Postgresql y haber creado una base dedatos llamada aeropuerto
+
+*Despues de Haber realizado este proceso abrir la carpeta Aeropuerto colocar en la linea de Comandos lo siguiente  ng serve esperar a que compile
+
+* abrir la direccion http://localhost:4200/ para desplegar el proyecto
+

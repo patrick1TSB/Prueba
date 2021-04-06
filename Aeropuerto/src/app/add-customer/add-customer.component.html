@@ -1,0 +1,36 @@
+<h2>Crear Ingreso</h2>
+<div>
+  <form (ngSubmit)="onSubmit()"> 
+    <!-- Nombre Aplicante -->   
+    <div class="form-group">
+      <label for="firstname">Nombre Aplicante:</label>
+      <input type="text" class="form-control" placeholder="Ingrese el Nombre" 
+                id="firstname" required [(ngModel)]="customer.firstname" name="firstname">
+    </div>
+    <!-- Destino -->
+    <div class="form-group">
+        <label for="lastname">Destino:</label>
+        <input type="text" class="form-control" placeholder="Ingrese el Destino" 
+                  id="lastname" required [(ngModel)]="customer.lastname" name="lastname">
+    </div>  
+    <!-- Fecha -->
+    <div class="form-group">
+        <label for="address">Fecha del Viaje:</label>
+        
+        <	<input type="date" class="form-control" placeholder="Ingrese la Fecha de Viaje" 
+                  id="address" required [(ngModel)]="customer.address" name="address">
+    </div>
+    
+  <!-- estatus -->
+  <div class="form-group">
+    
+    <input type="hidden" class="form-control" placeholder="Ingrese el Estado" 
+                id="age" required [(ngModel)]="customer.age" name="age">
+  </div>
+    
+ 
+ 
+    <button type="submit" class="btn btn-success">Ingresar</button>
+  </form>
+</div>
+<app-message></app-message>
